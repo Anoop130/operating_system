@@ -8,6 +8,32 @@ namespace cse4733 {
 void round_robin::run(std::vector<std::shared_ptr<cse4733::IProcess>> &processes, int quantum)
     {
         int completion_time = 0;
+        int n = processes.size();
+        std::queue<std::shared_ptr<cse4733::IProcess>> ready_queue;
+        for (int i = 0; i < n; ++i){
+            ready_queue.push(processes[i]);
+        }
+
+        while (!ready_queue.empty()){
+            auto process = ready_queue.front();
+            ready_queue.pop();
+            int remaining_time = process->get_remaining_time(); 
+            int exec_time = std::min(quantum, remaining_time); 
+
+            completion_time += exec_time;
+            remaining_time -= exec_time;
+
+            if (remaining_time > 0){
+                process->set_remaining_time(remaining_time);
+                ready_queue.push(process);
+            } else {
+                process->set_completion_time(completion_time);
+                int turnaround_time = completion_time - process->get_arrival_time();
+                process->set_turnaround_time(turnaround_time);
+                int waiting_time = turnaround_time - process->get_burst_time();
+                process->set_waiting_time(waiting_time);
+            }
+        }
 
         // TODO:
         //  Get number of processes

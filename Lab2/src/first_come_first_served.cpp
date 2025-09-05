@@ -8,6 +8,19 @@ namespace cse4733
     void first_come_first_served::run(std::vector<std::shared_ptr<cse4733::IProcess>> &processes)
     {
         int completion_time = 0;
+        int current_time = 0;
+        for (auto &process : processes){
+            int burst_time = process->get_burst_time();
+            completion_time = current_time + burst_time;
+            process->set_completion_time(completion_time);
+            int turnaround_time = completion_time - process->get_arrival_time();
+            process->set_turnaround_time(turnaround_time);
+            int waiting_time = turnaround_time - burst_time;
+            process->set_waiting_time(waiting_time);
+            current_time += burst_time;
+        }
+
+
         // TODO:
         //
         // Set 'current_time' to zero. It will keep track of the elapsed process execution times.
