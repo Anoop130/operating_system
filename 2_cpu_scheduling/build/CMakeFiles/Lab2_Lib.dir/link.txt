@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -g -O0 -Wall -Wextra -pedantic -shared -Wl,-soname,libLab2_Lib.so -o libLab2_Lib.so CMakeFiles/Lab2_Lib.dir/src/process.cpp.o CMakeFiles/Lab2_Lib.dir/src/first_come_first_served.cpp.o CMakeFiles/Lab2_Lib.dir/src/round_robin.cpp.o CMakeFiles/Lab2_Lib.dir/src/shortest_job_first.cpp.o 

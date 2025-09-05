@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -O0 -Wall -Wextra -pedantic -rdynamic CMakeFiles/Lab2.dir/src/main.cpp.o -o Lab2  -Wl,-rpath,/home/anoop130/operating_system/Lab2/build libLab2_Lib.so 

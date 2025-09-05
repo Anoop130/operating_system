@@ -1,0 +1,5 @@
+/home/anoop130/operating_system/Lab2/build/CMakeFiles/Lab2_Lib.dir
+/home/anoop130/operating_system/Lab2/build/CMakeFiles/Lab2.dir
+/home/anoop130/operating_system/Lab2/build/CMakeFiles/zip.dir
+/home/anoop130/operating_system/Lab2/build/CMakeFiles/edit_cache.dir
+/home/anoop130/operating_system/Lab2/build/CMakeFiles/rebuild_cache.dir
