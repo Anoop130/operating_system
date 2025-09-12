@@ -1,0 +1,5 @@
+/home/anoop130/operating_system/3_system_memory_simulation/build/CMakeFiles/Lab3_Lib.dir
+/home/anoop130/operating_system/3_system_memory_simulation/build/CMakeFiles/Lab3.dir
+/home/anoop130/operating_system/3_system_memory_simulation/build/CMakeFiles/zip.dir
+/home/anoop130/operating_system/3_system_memory_simulation/build/CMakeFiles/edit_cache.dir
+/home/anoop130/operating_system/3_system_memory_simulation/build/CMakeFiles/rebuild_cache.dir

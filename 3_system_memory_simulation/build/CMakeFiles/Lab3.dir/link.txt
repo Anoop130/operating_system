@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -O0 -Wall -Wextra -pedantic CMakeFiles/Lab3.dir/src/main.cpp.o -o Lab3  -Wl,-rpath,/home/anoop130/operating_system/3_system_memory_simulation/build libLab3_Lib.so 

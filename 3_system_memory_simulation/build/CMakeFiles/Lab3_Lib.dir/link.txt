@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -g -O0 -Wall -Wextra -pedantic -shared -Wl,-soname,libLab3_Lib.so -o libLab3_Lib.so CMakeFiles/Lab3_Lib.dir/src/MemoryAllocator.cpp.o CMakeFiles/Lab3_Lib.dir/src/MemoryBlock.cpp.o CMakeFiles/Lab3_Lib.dir/src/Process.cpp.o 
