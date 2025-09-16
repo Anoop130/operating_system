@@ -4,9 +4,14 @@
 #include "cse4733/GlobalVariables.hpp"
 #include "cse4733/SignalHandlers.hpp"
 #include "cse4733/SystemCalls.hpp" // Include any necessary headers
+using namespace cse4733;
 
 void handleSIGINT(int signal)
 {
+    pid_t pid = SystemCalls::GetPid();
+    std::cout << "Child process (PID: " << pid << ") received SIGINT signal. Exiting." << std::endl;
+    exit(0);
+
     // TODO: Implement the handleSIGINT function.
     // 1. Get the PID of the child process using the GetPid method from the SystemCalls class.
     // 2. Output a message to the console indicating that the child process received a SIGINT signal and is exiting.
@@ -14,7 +19,14 @@ void handleSIGINT(int signal)
 }
 
 void handleSIGUSR1(int signal)
-{
+{   
+    if (g_processManager){
+        std::cout << "SIGUSR1 signal received. Logging message." << std::endl;
+        g_processManager->incrementSleepValue();
+        std::cout << "Increased thread sleep value to: " << g_processManager->getSleepValue() << " seconds." << std::endl;
+    }
+    
+
     // TODO: Implement the handleSIGUSR1 function.
     // 1. Check if the global process manager object exists.
     // 2. If the global process manager object exists:
@@ -25,6 +37,13 @@ void handleSIGUSR1(int signal)
 
 void handleSIGALRM(int signal)
 {
+    if (g_processManager) {
+        std::cout << "SIGALRM signal received. Performing time-out action." << std::endl;
+        if (g_processManager->getSleepValue() > 1) {
+            g_processManager->decrementSleepValue();
+            std::cout << "Decreased thread sleep value to: " << g_processManager->getSleepValue() << " seconds." << std::endl;
+        }
+    }
    // TODO: Implement the handleSIGALRM function.
     // 1. Check if the global process manager object exists.
     // 2. If the global process manager object exists:

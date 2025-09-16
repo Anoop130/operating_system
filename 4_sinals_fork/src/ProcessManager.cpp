@@ -52,6 +52,34 @@ namespace cse4733
 
     void ProcessManager::Run()
     {
+        pid_t pid = fork();
+        if (pid < 0) {
+            throw ForkException("Error occurred during fork.");
+        } else if (pid == 0) {
+            // Child process
+            std::signal(SIGINT, handleSIGINT);
+            std::signal(SIGUSR1, handleSIGUSR1);
+            std::signal(SIGALRM, handleSIGALRM);
+            std::cout << "Child Process ID: " << getpid() << " - Program is running." << std::endl;
+            while (ShouldContinueRunning()) {
+                sleep(m_sleepValue);
+                std::cout << "Child Process ID: " << getpid() << " - Slept for " << m_sleepValue << " seconds." << std::endl;
+                incrementCounter();
+            }
+
+        } else {
+            // Parent process
+            int status;
+            pid_t wait_result = waitpid(pid, &status, 0);
+            if (wait_result < 0) {
+                throw WaitPidException("Error occurred during waitpid.");
+            }
+            if (WIFEXITED(status)) {
+                std::cout << "Child process " << pid << " exited with status: " << WEXITSTATUS(status) << std::endl;
+            } else if (WIFSIGNALED(status)) {
+                std::cout << "Child process " << pid << " was terminated by signal: " << WTERMSIG(status) << std::endl;
+            }
+        }    
         /*
         TODO: Implement the Run method.
         1. Create a child process using the fork system call.

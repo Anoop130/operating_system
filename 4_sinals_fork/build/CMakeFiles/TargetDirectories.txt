@@ -1,0 +1,5 @@
+/home/anoop130/operating_system/4_sinals_fork/build/CMakeFiles/Lab4_Lib.dir
+/home/anoop130/operating_system/4_sinals_fork/build/CMakeFiles/Lab4.dir
+/home/anoop130/operating_system/4_sinals_fork/build/CMakeFiles/zip.dir
+/home/anoop130/operating_system/4_sinals_fork/build/CMakeFiles/edit_cache.dir
+/home/anoop130/operating_system/4_sinals_fork/build/CMakeFiles/rebuild_cache.dir

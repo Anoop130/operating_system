@@ -1,0 +1,2 @@
+/usr/bin/ar qc libLab4_Lib.a CMakeFiles/Lab4_Lib.dir/src/GlobalVariables.cpp.o CMakeFiles/Lab4_Lib.dir/src/ProcessManager.cpp.o CMakeFiles/Lab4_Lib.dir/src/SignalHandlers.cpp.o CMakeFiles/Lab4_Lib.dir/src/SystemCalls.cpp.o
+/usr/bin/ranlib libLab4_Lib.a
