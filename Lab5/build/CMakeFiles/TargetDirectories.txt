@@ -1,0 +1,5 @@
+/home/anoop130/operating_system/Lab5/build/CMakeFiles/Lab5_Lib.dir
+/home/anoop130/operating_system/Lab5/build/CMakeFiles/Lab5.dir
+/home/anoop130/operating_system/Lab5/build/CMakeFiles/zip.dir
+/home/anoop130/operating_system/Lab5/build/CMakeFiles/edit_cache.dir
+/home/anoop130/operating_system/Lab5/build/CMakeFiles/rebuild_cache.dir

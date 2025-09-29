@@ -6,19 +6,19 @@
       "name": "Heap",
       "index": 0,
       "base": 0,
-      "size": 0
+      "size": 65536
     },
     {
       "name": "Code",
       "index": 1,
-      "base": 0,
-      "size": 0
+      "base": 1073741824,
+      "size": 98304
     },
     {
       "name": "Stack",
       "index": 2,
-      "base": 0,
-      "size": 0
+      "base": 2147483648,
+      "size": 98304
     }
   ],
   "addresses": [

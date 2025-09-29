@@ -10,17 +10,8 @@ set(CMAKE_BUILD_TYPE Debug)
 # Set the compiler flags
 set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -O0 -Wall")
 
-# Fetch dependencies
-include(FetchContent)
-
-# Fetch the nlohmann/json library
-FetchContent_Declare(
-    json
-    GIT_REPOSITORY https://github.com/nlohmann/json.git
-    GIT_TAG v3.11.2
-)
-set(JSON_BuildTests OFF CACHE BOOL "Build the unit tests for nlohmann/json" FORCE)
-FetchContent_MakeAvailable(json)
+# Use local nlohmann/json library
+# The JSON library is included as a header-only library in third_party/nlohmann/
 
 
 # Set the source files for your project
@@ -59,12 +50,12 @@ add_library(${PROJECT_NAME}_Lib ${SOURCES} ${HEADERS})
 # Create the executable for your project
 add_executable(${PROJECT_NAME} src/main.cpp)
 
-# Include the 'include' directory
-target_include_directories(${PROJECT_NAME}_Lib PUBLIC ${CMAKE_SOURCE_DIR}/include PRIVATE ${json_SOURCE_DIR}/include)
-target_include_directories(${PROJECT_NAME} PRIVATE ${CMAKE_SOURCE_DIR}/include)
+# Include the 'include' directory and third_party for nlohmann/json
+target_include_directories(${PROJECT_NAME}_Lib PUBLIC ${CMAKE_SOURCE_DIR}/include PRIVATE ${CMAKE_SOURCE_DIR}/third_party)
+target_include_directories(${PROJECT_NAME} PRIVATE ${CMAKE_SOURCE_DIR}/include ${CMAKE_SOURCE_DIR}/third_party)
 
-# Link the nlohmann/json library
-target_link_libraries(${PROJECT_NAME} PRIVATE nlohmann_json::nlohmann_json ${PROJECT_NAME}_Lib)
+# Link the libraries (nlohmann/json is header-only, so no linking needed)
+target_link_libraries(${PROJECT_NAME} PRIVATE ${PROJECT_NAME}_Lib)
 
 # Check if the flag is available
 option(ENABLE_CLANG_TIDY "Enable Clang-Tidy" OFF)

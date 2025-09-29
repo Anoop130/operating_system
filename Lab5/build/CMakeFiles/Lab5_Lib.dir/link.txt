@@ -1,0 +1,2 @@
+/usr/bin/ar qc libLab5_Lib.a CMakeFiles/Lab5_Lib.dir/src/AddressTranslator.cpp.o CMakeFiles/Lab5_Lib.dir/src/ConfigParser.cpp.o CMakeFiles/Lab5_Lib.dir/src/Segment.cpp.o CMakeFiles/Lab5_Lib.dir/src/Memory.cpp.o
+/usr/bin/ranlib libLab5_Lib.a
