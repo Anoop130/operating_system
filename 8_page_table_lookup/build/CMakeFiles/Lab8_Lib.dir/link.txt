@@ -1,0 +1,2 @@
+/usr/bin/ar qc libLab8_Lib.a CMakeFiles/Lab8_Lib.dir/src/memory_management.cpp.o
+/usr/bin/ranlib libLab8_Lib.a

@@ -2,3 +2,6 @@
 # Ignore build and test artifacts
 Lab1/build/
 Lab1/tests/
+*venv/*
+venv/*
+

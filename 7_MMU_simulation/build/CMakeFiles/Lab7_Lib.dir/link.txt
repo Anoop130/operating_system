@@ -1,0 +1,2 @@
+/usr/bin/ar qc libLab7_Lib.a CMakeFiles/Lab7_Lib.dir/src/MMU.cpp.o CMakeFiles/Lab7_Lib.dir/src/TLB.cpp.o
+/usr/bin/ranlib libLab7_Lib.a

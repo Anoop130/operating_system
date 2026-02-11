@@ -1,0 +1,5 @@
+/home/anoop130/operating_system/7_MMU_simulation/build/CMakeFiles/Lab7_Lib.dir
+/home/anoop130/operating_system/7_MMU_simulation/build/CMakeFiles/Lab7.dir
+/home/anoop130/operating_system/7_MMU_simulation/build/CMakeFiles/zip.dir
+/home/anoop130/operating_system/7_MMU_simulation/build/CMakeFiles/edit_cache.dir
+/home/anoop130/operating_system/7_MMU_simulation/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,4 @@
+/home/anoop130/operating_system/9_multi-threaded_prime_no_gen/build/CMakeFiles/Lab9.dir
+/home/anoop130/operating_system/9_multi-threaded_prime_no_gen/build/CMakeFiles/zip.dir
+/home/anoop130/operating_system/9_multi-threaded_prime_no_gen/build/CMakeFiles/edit_cache.dir
+/home/anoop130/operating_system/9_multi-threaded_prime_no_gen/build/CMakeFiles/rebuild_cache.dir

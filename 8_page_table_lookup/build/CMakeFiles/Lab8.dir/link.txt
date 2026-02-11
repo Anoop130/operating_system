@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -O0 -Wall -Wextra -pedantic -rdynamic CMakeFiles/Lab8.dir/src/main.cpp.o -o Lab8  libLab8_Lib.a /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.83.0 

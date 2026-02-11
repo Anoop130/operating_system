@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -g -O0 -Wall -Wextra -pedantic CMakeFiles/Lab11.dir/src/BlockManager.cpp.o CMakeFiles/Lab11.dir/src/Directory.cpp.o CMakeFiles/Lab11.dir/src/FileSystem.cpp.o CMakeFiles/Lab11.dir/src/Inode.cpp.o CMakeFiles/Lab11.dir/src/main.cpp.o -o Lab11 

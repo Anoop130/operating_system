@@ -1,0 +1,13 @@
+# Target labels
+ gmp
+# Source files and their labels
+/home/anoop130/operating_system/10_power_cal_threads/build/CMakeFiles/gmp
+/home/anoop130/operating_system/10_power_cal_threads/build/CMakeFiles/gmp.rule
+/home/anoop130/operating_system/10_power_cal_threads/build/CMakeFiles/gmp-complete.rule
+/home/anoop130/operating_system/10_power_cal_threads/build/gmp/src/gmp-stamp/gmp-build.rule
+/home/anoop130/operating_system/10_power_cal_threads/build/gmp/src/gmp-stamp/gmp-configure.rule
+/home/anoop130/operating_system/10_power_cal_threads/build/gmp/src/gmp-stamp/gmp-download.rule
+/home/anoop130/operating_system/10_power_cal_threads/build/gmp/src/gmp-stamp/gmp-install.rule
+/home/anoop130/operating_system/10_power_cal_threads/build/gmp/src/gmp-stamp/gmp-mkdir.rule
+/home/anoop130/operating_system/10_power_cal_threads/build/gmp/src/gmp-stamp/gmp-patch.rule
+/home/anoop130/operating_system/10_power_cal_threads/build/gmp/src/gmp-stamp/gmp-update.rule

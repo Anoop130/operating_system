@@ -1,0 +1,5 @@
+/home/anoop130/operating_system/10_power_cal_threads/build/CMakeFiles/gmp.dir
+/home/anoop130/operating_system/10_power_cal_threads/build/CMakeFiles/Lab10.dir
+/home/anoop130/operating_system/10_power_cal_threads/build/CMakeFiles/zip.dir
+/home/anoop130/operating_system/10_power_cal_threads/build/CMakeFiles/edit_cache.dir
+/home/anoop130/operating_system/10_power_cal_threads/build/CMakeFiles/rebuild_cache.dir

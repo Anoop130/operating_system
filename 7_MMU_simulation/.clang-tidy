@@ -1,0 +1,5 @@
+# Minimal clang-tidy config for student repository: only disable # the check that suggests making member functions static. Checks: '-readability-make-member-function-static'
+
+# Apply to project headers/sources HeaderFilterRegex: '.*'
+
+WarningsAsErrors: ''

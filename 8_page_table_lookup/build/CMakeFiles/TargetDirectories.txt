@@ -1,0 +1,5 @@
+/home/anoop130/operating_system/8_page_table_lookup/build/CMakeFiles/Lab8_Lib.dir
+/home/anoop130/operating_system/8_page_table_lookup/build/CMakeFiles/Lab8.dir
+/home/anoop130/operating_system/8_page_table_lookup/build/CMakeFiles/zip.dir
+/home/anoop130/operating_system/8_page_table_lookup/build/CMakeFiles/edit_cache.dir
+/home/anoop130/operating_system/8_page_table_lookup/build/CMakeFiles/rebuild_cache.dir

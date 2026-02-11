@@ -1,0 +1,1 @@
+/usr/bin/c++  -g -g -O0 -Wall -Wextra -pedantic CMakeFiles/Lab10.dir/src/main.cpp.o -o Lab10  gmp/lib/libgmp.a 

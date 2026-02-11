@@ -1,0 +1,1 @@
+/usr/bin/c++  -g -g -O0 -Wall -Wextra -pedantic CMakeFiles/Lab7.dir/src/main.cpp.o -o Lab7  libLab7_Lib.a 

@@ -1,0 +1,4 @@
+/home/anoop130/operating_system/11_filesystem/build/CMakeFiles/Lab11.dir
+/home/anoop130/operating_system/11_filesystem/build/CMakeFiles/zip.dir
+/home/anoop130/operating_system/11_filesystem/build/CMakeFiles/edit_cache.dir
+/home/anoop130/operating_system/11_filesystem/build/CMakeFiles/rebuild_cache.dir

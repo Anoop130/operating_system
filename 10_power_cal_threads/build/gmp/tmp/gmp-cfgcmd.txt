@@ -1,0 +1,1 @@
+cmd='<SOURCE_DIR>/configure;--prefix=<INSTALL_DIR>;>;/home/anoop130/operating_system/10_power_cal_threads/build/gmp_configure.log;2>&1'

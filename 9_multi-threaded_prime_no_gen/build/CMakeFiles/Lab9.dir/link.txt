@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -O0 -Wall -Wextra -pedantic CMakeFiles/Lab9.dir/src/main.cpp.o -o Lab9  /usr/lib/x86_64-linux-gnu/libboost_program_options.so.1.83.0 

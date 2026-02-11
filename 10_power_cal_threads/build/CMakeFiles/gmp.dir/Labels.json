@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/anoop130/operating_system/10_power_cal_threads/build/CMakeFiles/gmp"
+		},
+		{
+			"file" : "/home/anoop130/operating_system/10_power_cal_threads/build/CMakeFiles/gmp.rule"
+		},
+		{
+			"file" : "/home/anoop130/operating_system/10_power_cal_threads/build/CMakeFiles/gmp-complete.rule"
+		},
+		{
+			"file" : "/home/anoop130/operating_system/10_power_cal_threads/build/gmp/src/gmp-stamp/gmp-build.rule"
+		},
+		{
+			"file" : "/home/anoop130/operating_system/10_power_cal_threads/build/gmp/src/gmp-stamp/gmp-configure.rule"
+		},
+		{
+			"file" : "/home/anoop130/operating_system/10_power_cal_threads/build/gmp/src/gmp-stamp/gmp-download.rule"
+		},
+		{
+			"file" : "/home/anoop130/operating_system/10_power_cal_threads/build/gmp/src/gmp-stamp/gmp-install.rule"
+		},
+		{
+			"file" : "/home/anoop130/operating_system/10_power_cal_threads/build/gmp/src/gmp-stamp/gmp-mkdir.rule"
+		},
+		{
+			"file" : "/home/anoop130/operating_system/10_power_cal_threads/build/gmp/src/gmp-stamp/gmp-patch.rule"
+		},
+		{
+			"file" : "/home/anoop130/operating_system/10_power_cal_threads/build/gmp/src/gmp-stamp/gmp-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"gmp"
+		],
+		"name" : "gmp"
+	}
+}
